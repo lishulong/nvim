@@ -1,0 +1,36 @@
+call plug#begin($XDG_CONFIG_HOME."/plugged")
+
+
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-fugitive'
+Plug 'kshenoy/vim-signature'
+Plug 'vim-scripts/Mark--Karkat'
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'dkprice/vim-easygrep'
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdcommenter'
+Plug 'junegunn/vim-easy-align'
+Plug 'Yggdroot/indentLine'
+Plug 'vim-syntastic/syntastic'
+Plug 'Chiel92/vim-autoformat'
+Plug 'ryanoasis/vim-devicons'
+Plug 'liuchengxu/vista.vim'
+Plug 'itchyny/lightline.vim'
+
+
+call plug#end()
+
+
+source $XDG_CONFIG_HOME/nvim/vimrcs/basic.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/coc.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/ctrlp.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/nerdtree.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/easygrep.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/easymotion.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/nerdcommenter.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/easy-align.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/syntastic.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/vista.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/lightline.vimrc

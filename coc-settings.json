@@ -1,0 +1,21 @@
+{
+    "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+
+	"python.jediEnabled": false,
+	"python.linting.pylintEnabled": true,
+	"python.autoComplete.addBrackets": true,
+
+    "languageserver": {
+        "golang": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+            "filetypes": ["go"]
+        },
+
+        "lua": {
+            "command": "lua-lsp",
+            "filetypes": ["lua"]
+        }
+    }
+}
+
