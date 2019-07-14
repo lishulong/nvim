@@ -34,3 +34,4 @@ source $XDG_CONFIG_HOME/nvim/vimrcs/easy-align.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/syntastic.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/vista.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/lightline.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/autoformat.vimrc
