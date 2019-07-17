@@ -10,3 +10,8 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_go_checkers = ['golangci-lint']
+
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "active_filetypes": ["go", "c", "lua"],
+    \ "passive_filetypes": ["python"] }
