@@ -3,4 +3,5 @@ let NERDDefaultAlign="left"
 let g:NERDCustomDelimiters = {
     \ 'c': {'left': '/**','right': '*/', 'leftAlt': '//'},
     \ 'lua': {'left': '--'},
+    \ 'go': {'left': '//'},
     \ }
