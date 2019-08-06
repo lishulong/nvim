@@ -16,8 +16,8 @@ Plug 'Yggdroot/indentLine'
 Plug 'vim-syntastic/syntastic'
 Plug 'Chiel92/vim-autoformat'
 Plug 'ryanoasis/vim-devicons'
-Plug 'liuchengxu/vista.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'majutsushi/tagbar'
 
 
 call plug#end()
@@ -32,6 +32,6 @@ source $XDG_CONFIG_HOME/nvim/vimrcs/easymotion.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/nerdcommenter.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/easy-align.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/syntastic.vimrc
-source $XDG_CONFIG_HOME/nvim/vimrcs/vista.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/tagbar.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/lightline.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/autoformat.vimrc
