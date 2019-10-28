@@ -1,6 +1,7 @@
 call plug#begin($XDG_CONFIG_HOME."/plugged")
 
 
+Plug 'rust-lang/rust.vim'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
