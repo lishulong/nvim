@@ -1,5 +1,6 @@
 {
     "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+    "coc.preferences.hoverTarget": "float",
 
 	"python.jediEnabled": false,
 	"python.linting.pylintEnabled": true,

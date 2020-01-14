@@ -7,9 +7,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-fugitive'
 Plug 'kshenoy/vim-signature'
 Plug 'vim-scripts/Mark--Karkat'
-Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'dkprice/vim-easygrep'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'junegunn/vim-easy-align'
@@ -18,7 +16,11 @@ Plug 'vim-syntastic/syntastic'
 Plug 'Chiel92/vim-autoformat'
 Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
-Plug 'majutsushi/tagbar'
+Plug 'frazrepo/vim-rainbow'
+Plug 'Yggdroot/LeaderF'
+
+" TODO(lsl): if you can adapt tag function of leaderf, remove tagbar
+" Plug 'majutsushi/tagbar'
 
 
 call plug#end()
@@ -26,13 +28,15 @@ call plug#end()
 
 source $XDG_CONFIG_HOME/nvim/vimrcs/basic.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/coc.vimrc
-source $XDG_CONFIG_HOME/nvim/vimrcs/ctrlp.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/nerdtree.vimrc
-source $XDG_CONFIG_HOME/nvim/vimrcs/easygrep.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/easymotion.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/nerdcommenter.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/easy-align.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/syntastic.vimrc
-source $XDG_CONFIG_HOME/nvim/vimrcs/tagbar.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/lightline.vimrc
 source $XDG_CONFIG_HOME/nvim/vimrcs/autoformat.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/rainbow.vimrc
+source $XDG_CONFIG_HOME/nvim/vimrcs/leaderf.vimrc
+
+" TODO(lsl): if you can adapt tag function of leaderf, remove tagbar
+" source $XDG_CONFIG_HOME/nvim/vimrcs/tagbar.vimrc
